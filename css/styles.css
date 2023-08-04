@@ -7,12 +7,15 @@ background: #dfdfdf;
 }
 
 .container{
-padding: 20px;
+padding: 20px 10px 0 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
 background: white;
-border-radius: 5px;}
+border-radius: 5px;
+border: 2px red solid;
+
+}
 
 form {
 display: inline-block;
@@ -21,7 +24,11 @@ display: inline-block;
 input{
 padding: 4px 15px 4px 5px;
 }
+q {
 
+    font-size: 7px;
+    font-style: italic;
+}
 #button{
 display: inline-block;
 background-color:#fc999b;
